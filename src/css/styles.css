@@ -1,40 +1,61 @@
 * {
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-    background: #cecdcd;
+  font-family: "Arial", sans-serif;
+  background: #272525;
 }
 
-main {
-    width: 100%;
-    max-width: 1350px;
-    margin: 0 auto;
+.main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 100px auto;
+  height: 675px;
+  background: #f6f6f6;
+  padding: 86px 95px;
 }
 
-.page {
-    margin-top: 20px;
-    max-width: 700px;
-    padding: 100px;
-    height: 900px;
-    box-shadow: 0 0 10px #000;
-    background: #ffffff;
+.card {
+  padding-right: 80px;
+  display: inline-block;
+  background: #ffffff;
 }
 
-.content {
-    position: fixed;
-    top: 0px;
-    right: 200px;
-    max-width: 700px;
+.card__image {
+  width: 376px;
+  height: 375px;
+  float: left;
+  margin: 64px 99px 64px 47px;
 }
 
-h2 {
-    margin-bottom: 20px;
+.card__name {
+  margin: 94px 0 31px;
+  font-size: 22.5px;
+  font-weight: bold;
 }
 
-aside {
-    margin-bottom: 20px;
+.card__description {
+  height: 87px;
+  margin-bottom: 18px;
+}
+
+.card__description,
+.card__prise-text {
+  font-size: 15px;
+}
+
+.card__prise {
+  font-size: 30px;
+  margin: 18px 0 36px;
+}
+
+.card__button {
+  padding: 16px 39px;
+  color: #ffffff;
+  font-size: 18.75px;
+  background: #ec744a;
 }
