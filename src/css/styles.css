@@ -1,61 +1,103 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
 body {
-  font-family: "Arial", sans-serif;
-  background: #272525;
+  font-family: Tahoma;
 }
 
-.main {
-  width: 100%;
-  max-width: 1200px;
-  margin: 100px auto;
-  height: 675px;
-  background: #f6f6f6;
-  padding: 86px 95px;
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 
-.card {
-  padding-right: 80px;
+.header {
+  padding: 77px 0 96px;
+}
+
+.header-img {
   display: inline-block;
-  background: #ffffff;
+  width: 39%;
+  vertical-align: middle;
 }
 
-.card__image {
-  width: 376px;
-  height: 375px;
-  float: left;
-  margin: 64px 99px 64px 47px;
+.header-text {
+  display: inline-block;
+  width: 60%;
+  vertical-align: middle;
 }
 
-.card__name {
-  margin: 94px 0 31px;
-  font-size: 22.5px;
-  font-weight: bold;
+.header-text__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.card__description {
-  height: 87px;
-  margin-bottom: 18px;
-}
-
-.card__description,
-.card__prise-text {
-  font-size: 15px;
-}
-
-.card__prise {
+.header-text__subtitle {
   font-size: 30px;
-  margin: 18px 0 36px;
+  font-weight: 400;
+  margin-bottom: 35px;
 }
 
-.card__button {
-  padding: 16px 39px;
+.header-text__descr {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 530px;
+  margin-bottom: 43px;
+}
+
+.header-text__prise {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 53px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #f05a22;
+  font-size: 24px;
+  font-weight: 700;
   color: #ffffff;
-  font-size: 18.75px;
-  background: #ec744a;
+  padding: 22px 43px;
+}
+
+.button-o {
+  color: #f05a22;
+  background-color: transparent;
+  border: 2px solid #f05a22;
+}
+
+.section__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 97px;
+}
+
+.features {
+  padding-top: 90px;
+  padding-bottom: 99px;
+  background-color: #f2f2f2;
+}
+
+.features-wrap::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.features-block {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+
+.features-block__img {
+  min-height: 50px;
+  margin-bottom: 23px;
+}
+
+.features-block__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }
